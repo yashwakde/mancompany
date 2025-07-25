@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import hitesh from "../assets/hitesh.png";
 import hitesh2 from "../assets/hitesh2.png";
-import parvesh from "../assets/Parvesh.png"
-import bhisham from "../assets/Bhisham.png";
+import parvesh from "../assets/parvesh.png"
+import bhisham from "../assets/bhisham.png";
 import ayushman from "../assets/ayushman.jpg"
 import emami from "../assets/emami.png"
 const AboutPage = () => {
