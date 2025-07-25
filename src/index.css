@@ -1,0 +1,58 @@
+@import "tailwindcss";
+@font-face {
+    font-family: play;
+    src: url(./assets/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: gil;
+    src: url(./assets/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family:you;
+    src: url(./assets/YoungSerif-Regular.ttf);
+}
+
+@font-face{
+    font-family: cinzel;
+    src: url(./assets/Cinzel-SemiBold.ttf);
+}
+@font-face {
+    font-family: boldcinzel;
+    src: url(./assets/Cinzel-Black.ttf);
+}
+
+@font-face {
+    font-family: cinzelregular;
+    src: url(./assets/Cinzel-Regular.ttf);
+}
+/* In index.css or global.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+@keyframes spin-once {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate-spin-once {
+  animation: spin-once 1.5s linear;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out;
+}
